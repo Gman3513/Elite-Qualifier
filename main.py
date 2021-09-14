@@ -1,7 +1,7 @@
 import time
 
 
-# load dictionary words from file
+
 def load_words():
   all_words = []
   start_time = time.time()
@@ -12,7 +12,7 @@ def load_words():
   end_time = time.time()
 
   elapsed_time = end_time - start_time
-  # log words loaded and elapsed time
+
   print('Loaded ' + str(len(all_words)) + ' words in ' + f'{elapsed_time:.2f}' + ' seconds.')
 
   return all_words
