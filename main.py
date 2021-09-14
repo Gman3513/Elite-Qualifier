@@ -16,7 +16,7 @@ def load_words():
   print('Loaded ' + str(len(all_words)) + ' words in ' + f'{elapsed_time:.2f}' + ' seconds.')
 
   return all_words
-# lines commented out in this function are future issues and extensions 
+# lines commented out in this function are future issues and extensions change 
 def suggest(text, all_words):
   if text in all_words:
     print(text + ' is a word')
